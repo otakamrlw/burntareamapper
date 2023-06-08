@@ -37,6 +37,7 @@ To get data via API:
 
 
 This will ask you to provide coordinates and timerange and then the script will retrieve the required data via the API.
+As an example, you can use the Alpha Road Tambaroora bushfire in NSW Central West, Australia that occurred between 05.03.2023 and 19.03.2023. The coordinates and timerange are (148.79697, -33.20518, 150.05036, -32.64876) and 2023-03-05/2023-03-19.  
 
 To use data already stored in a local directory:
    
