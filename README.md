@@ -17,27 +17,24 @@ To use the Burnt Area Mapper, follow these steps:
    ```bash
    git clone https://github.com/otakamrlw/burntareamapper.git
    
-2. Set up the environment using the provided environment.yml file:
+2. Set up the environment using the provided requirements.txt file:
 
    ```bash
-   conda env create -f environment.yml
+   pip3 install -r requirements.txt
 
-3. Activate the environment:
 
-   ```bash
-   conda activate ororatech
 
-4. Run the burnt_area_mapper.py script with the desired parameter:
+3. Run the burnt_area_mapper.py script with the desired parameter:
 
 To get data via API:
    
    ```bash
-   python burnt_area_mapper.py api
+   python3 burnt_area_mapper.py api
    ```
 
 
-This will ask you to provide coordinates and timerange and then the script will retrieve the required data via the API.
-As an example, you can use the Alpha Road Tambaroora bushfire in NSW Central West, Australia that occurred between 05.03.2023 and 19.03.2023. The coordinates and timerange are (148.79697, -33.20518, 150.05036, -32.64876) and 2023-03-05/2023-03-19.  
+This will ask you to provide coordinates and time range and then the script will retrieve the required data via the API.
+As an example, you can use the Alpha Road Tambaroora bushfire in NSW Central West, Australia that occurred between 05.03.2023 and 19.03.2023. The coordinates and time range are (148.79697, -33.20518, 150.05036, -32.64876) and 2023-03-05/2023-03-19.  
 
 To use data already stored in a local directory:
    
@@ -45,7 +42,7 @@ To use data already stored in a local directory:
    python burnt_area_mapper.py local
    ```
 
-This will use the data stored in the local directory. You can donwload the data manually at https://scihub.copernicus.eu/dhus/#/home or use the example data stored in this repository.
+This will use the data stored in the local directory. You can download the data manually at https://scihub.copernicus.eu/dhus/#/home or use the example data stored in this repository.
 
 
 5. You will get the NBR of prefire, postfire, dNBR and a burn severity map as a plot.
