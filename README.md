@@ -29,7 +29,7 @@ To use the Burnt Area Mapper, follow these steps:
 To get data via API:
    
    ```bash
-   python3 burnt_area_mapper.py api
+   python burnt_area_mapper.py api
    ```
 
 
